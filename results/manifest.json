@@ -1,0 +1,14 @@
+{
+  "sha256": {
+    "core.py": "ec66ac08ec20df6e62b510f3cd5eed21f24b4501858612f9730d1669ec194a99",
+    "data/records.csv": "1401678fa0215198f1a9e2b8cb5868c9835024363f48115ff781ebbc48088e06",
+    "generate.py": "a9a2ba1fc8f1da57c314556182decdaff325d767d7fd96ee9445e00399c00a68",
+    "models/linear-heads.json": "2b4b6757ab31dd0e52b5bbc021d2a33f7127f59a6460aa5c4e44d60280cdd45f",
+    "results/metrics.json": "ca0151ffa2205153eb86efd6d2a2fd5bdcb5a7f787eaa6be19d6c064fb13fabf",
+    "results/predictions.csv": "953d47a0b2c4f71246a1f6d7d9699d72c5562788972e9660ecb9715eda5c51ed",
+    "results/report.md": "007b046c1b0bb0b76b517eb3a71f4fa2479521b41403e5d16c3a7a533293e3d3",
+    "results/threshold-selection.json": "2455934cc029ff02af961d4cdbf18365971d312cadf60d177dd220dc58670b03",
+    "run.py": "cc969ce40a6e0c437e8a4496c51d79859dd7e5b41c2553e4552760e0cf2fcf9a",
+    "support.py": "340246bc4e057054792d1120e1b20b6d6a49b54199edb54ac2ae0cca2d63ca09"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "fixed_macro_f1": 0.5830380743290369,
+  "macro_f1_difference_family_bootstrap_95": [
+    0.0029866496326184304,
+    0.04531820556794989
+  ],
+  "per_label": [
+    {
+      "decision_status": "supported",
+      "fixed_f1": 0.676595744680851,
+      "label": "document_gap",
+      "selected_f1": 0.6601307189542485,
+      "test_ap": 0.7556339266999441,
+      "test_positive": 259,
+      "threshold": 0.3
+    },
+    {
+      "decision_status": "supported",
+      "fixed_f1": 0.6881028938906752,
+      "label": "timing_review",
+      "selected_f1": 0.7067238912732475,
+      "test_ap": 0.7736844218399188,
+      "test_positive": 325,
+      "threshold": 0.4
+    },
+    {
+      "decision_status": "supported",
+      "fixed_f1": 0.38441558441558443,
+      "label": "amount_conflict",
+      "selected_f1": 0.45574387947269307,
+      "test_ap": 0.41327881619809625,
+      "test_positive": 220,
+      "threshold": 0.3
+    },
+    {
+      "decision_status": "withheld",
+      "fixed_f1": null,
+      "label": "specialist_route",
+      "selected_f1": null,
+      "test_ap": 0.2681496936110627,
+      "test_positive": 15,
+      "threshold": null
+    }
+  ],
+  "records": 3400,
+  "scope": "Original synthetic operational review signals; no fraud capture or insurance decision claim.",
+  "selected_macro_f1": 0.6075328299000631,
+  "selected_micro_f1": 0.6188925081433224,
+  "slices": {
+    "reference": {
+      "events": 400,
+      "macro_ap_supported": 0.7194123863408436,
+      "selected_macro_f1": 0.6540014153217979
+    },
+    "shifted": {
+      "events": 400,
+      "macro_ap_supported": 0.6077743113247528,
+      "selected_macro_f1": 0.5643046086211393
+    }
+  },
+  "split_families": {
+    "test": 200,
+    "train": 500,
+    "validation": 150
+  },
+  "split_records": {
+    "test": 800,
+    "train": 2000,
+    "validation": 600
+  },
+  "supported_decision_labels": [
+    "document_gap",
+    "timing_review",
+    "amount_conflict"
+  ],
+  "supported_macro_ap": 0.6475323882459864
+}

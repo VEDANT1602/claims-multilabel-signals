@@ -1,0 +1,20 @@
+{
+  "name": "claims-multilabel-signals",
+  "title": "Claims Multilabel Signals",
+  "source_collection": "shsarv/Machine-Learning-Projects",
+  "source_entry_url": "https://github.com/shsarv/Machine-Learning-Projects/tree/028b32244cb688cb1beb0ca90754596aeef5e812/Mechanisms%20Of%20Action%20(MoA)%20Prediction",
+  "skills": [
+    "scikit-learn",
+    "multilabel classification",
+    "calibration thresholds",
+    "group splits",
+    "risk methods"
+  ],
+  "problem": "Predict co-occurring fictional review reasons without hiding rare-label support behind one threshold.",
+  "limitations": [
+    "Original claims-like numeric simulation; no medical, drug, insurance customer or eligibility decisions."
+  ],
+  "test_command": "python -m unittest discover -s tests -v",
+  "run_command": "python run.py --output runs/ci",
+  "test_count": 11
+}

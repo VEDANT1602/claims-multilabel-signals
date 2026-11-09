@@ -1,0 +1,34 @@
+{
+  "labels": [
+    {
+      "label": "document_gap",
+      "negative": 373,
+      "positive": 227,
+      "status": "supported",
+      "threshold": 0.3
+    },
+    {
+      "label": "timing_review",
+      "negative": 350,
+      "positive": 250,
+      "status": "supported",
+      "threshold": 0.4
+    },
+    {
+      "label": "amount_conflict",
+      "negative": 418,
+      "positive": 182,
+      "status": "supported",
+      "threshold": 0.3
+    },
+    {
+      "label": "specialist_route",
+      "negative": 584,
+      "positive": 16,
+      "reason": "insufficient_validation_support",
+      "status": "withheld"
+    }
+  ],
+  "minimum_positive_and_negative_support": 25,
+  "validation_only": true
+}
